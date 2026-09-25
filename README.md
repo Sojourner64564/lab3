@@ -7,3 +7,6 @@ Wikimedia Collector
 - --max	35	Максимум статей
 - --langs	en,de	Доп. языки для автоперевода (через запятую)
 - --no-potd	выкл.	Не скачивать изображение дня
+
+Пример запроса:
+ - python wikimedia_collector.py "александр пушкин" --max 35 --langs en,de
